@@ -1,0 +1,22 @@
+<!--pages/template/list-template.wxml-->
+<template name='listTmp'>
+  <view class="temContainer">
+    <view class="avatar_date">
+      <image    src="{{item.avatar}}">
+      </image>
+      <text>{{item.date}}</text>
+    </view>
+    <text class="company">{{item.title}}</text>
+    <image class="contentImage" src="{{item.detail_img}}">
+    </image>
+    <text class="content">{{item.detail_content}}</text>
+    <view class="star" >
+      <image src="{{item.detail_love_image1}}">
+      </image>
+      <text>{{item.love_count}}</text>
+      <image src="{{item.detail_love_image2}}">
+      </image>
+      <text>{{item.attention_count}}</text>
+    </view> 
+  </view>
+</template>

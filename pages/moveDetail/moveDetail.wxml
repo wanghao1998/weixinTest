@@ -1,0 +1,11 @@
+<!--pages/moveDetail/moveDetail.wxml-->
+<view class="move_content">
+  <image class="move_img" src="{{movie.images.large}}"></image>
+  <text class="move_title">{{movie.title}}</text>
+  <view class="move_txt">
+    <text>评分:{{movie.rating.average}}</text>
+    <text>导演:{{movie.directors[0].name}}</text>
+    <text>主演:{{movie.casts[1].name}}、{{movie.casts[2].name}}</text>
+  </view>
+  <button>我要观影</button>
+</view>

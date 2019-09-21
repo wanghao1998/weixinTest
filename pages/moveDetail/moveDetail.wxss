@@ -1,0 +1,30 @@
+/* pages/moveDetail/moveDetail.wxss */
+.move_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.move_img{
+  width: 70%;
+  height: 700rpx;
+  margin: 20rpx 0;
+}
+.move_title{
+  font-size: 38rpx;
+  font-weight: bold;
+  text-align: center
+}
+.move_txt{
+  display: flex;
+  flex-direction: column;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-bottom: 50rpx; 
+}
+button{
+  width: 70%;
+  height: 80rpx;
+  background: green;
+  color: #fff;
+  line-height: 80rpx;
+}
